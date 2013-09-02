@@ -6,16 +6,18 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 
+markdown: rdiscount
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : vontio
+tagline: my blog
 author :
-  name : Xiaobo Feng
+  name : vontio
   email : vontio@gmail.com
   github : vontio
-  twitter : xiaobofeng
+  #twitter : xiaobofeng
   #feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -71,7 +73,7 @@ JB :
   # Some JB helpers refer to these paths; change them here if needed.
   #
   archive_path: /archive.html
-  categories_path : /categories.html
+  #categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
