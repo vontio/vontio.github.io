@@ -1,7 +1,8 @@
 ---
 layout: post
 tagline: "hello world"
-tags : [personal]
+category : misc
+tags : [misc]
 ---
 {% include JB/setup %}
 
