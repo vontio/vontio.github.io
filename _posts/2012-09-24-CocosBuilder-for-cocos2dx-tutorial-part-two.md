@@ -52,7 +52,11 @@ git submodule update
 - I have added a string property called string to my CCBPMySprite,so I should parse it by type text
 {% highlight cpp %}
 void CCMySpriteLoader::onHandlePropTypeText(CCNode * pNode, CCNode * pParent, CCString * pPropertyName, CCString * pText, CCBReader * pCCBReader){
-	if(pPropertyName->compare("string") == 0){((CCMySprite*)pNode)->setMyString(pText);//assume you have implement a method called setMyString,just CCLog out}else{CCNodeLoader::onHandlePropTypeText(pNode,pParent,pPropertyName,pText,pCCBReader);
+	if(pPropertyName->compare("string") == 0){
+		((CCMySprite*)pNode)->setMyString(pText);//assume you have implement a method called setMyString,just CCLog out
+	}else{
+		CCNodeLoader::onHandlePropTypeText(pNode,pParent,pPropertyName,pText,pCCBReader);
+	}
 }
 {% endhighlight %}
 - inject your loader to the parse chain
