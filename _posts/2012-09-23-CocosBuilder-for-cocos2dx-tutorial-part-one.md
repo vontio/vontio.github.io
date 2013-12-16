@@ -1,25 +1,27 @@
 ---
 layout: post
-tagline: "CocosBuilder-for-cocos2dx-tutorial-part-one"
+tagline: "code connection"
 category : cocos2d-x
 tags : [cocos2d-x,cocosbuilder]
 ---
 {% include JB/setup %}
 
-I. create a empty HelloCocos2dx project
+**I. create a empty HelloCocos2dx project**
 
 use the cocos2dx template
 
-II. setup CocosBuilder
+**II. setup CocosBuilder**
 
-create a CocosBuilder project called HelloCocos2dx
-in CocosBuilder File->new File to create a Layer file HelloLayer
-add a CCLabelTTF,make it center,in the property panel Code Connections section change Don't assign to Owner var,and input txtHello,change Sample Text to "Hello From CocosBuilder"
-add a CCMenu,and add a CCMenuItemImage to the CCMenu,in the CCMenuItemImage property panel CCMenuItem section,input onSayHello: for Selector field and change target to Owner,in the CCMenuItemImage section select a image for normal state.
-in CocosBuilder File->Project Settings set Publish Directory to xcode project Resources/UI,uncheck all the checkbox,now publish
-III. connect with code
+- create a CocosBuilder project called HelloCocos2dx
+- in CocosBuilder File->new File to create a Layer file HelloLayer
+- add a CCLabelTTF,make it center,in the property panel Code Connections section change Don't assign to Owner - -- var,and input txtHello,change Sample Text to "Hello From CocosBuilder"
+- add a CCMenu,and add a CCMenuItemImage to the CCMenu,in the CCMenuItemImage property panel CCMenuItem section,input onSayHello: for Selector field and change target to Owner,in the CCMenuItemImage section select a image for normal state.
+- in CocosBuilder File->Project Settings set Publish Directory to xcode project Resources/UI,uncheck all the checkbox,now publish
 
-create a cpp class called LayerHello
+**III. connect with code**
+
+- create a cpp class called LayerHello
+
 LayerHello.h
 {% highlight cpp %}
 #ifndef __LayerHello__
@@ -93,5 +95,5 @@ void LayerHello::onSayHello(CCObject *sender)
 	txtHello->setString("Hello From Code");
 }
 {% endhighlight %}
-add LayerHello to your scene,click run to test it
-in you game,click the CCMenuItemImage,the label should change to "Hello From Code"
+- add LayerHello to your scene,click run to test it
+- in you game,click the CCMenuItemImage,the label should change to "Hello From Code"
