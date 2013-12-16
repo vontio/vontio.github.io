@@ -30,7 +30,7 @@ To make CCScrollView work well,some modifications are required.(work with CCMenu
 
 - setContainer
 
-{% highlight cpp %}
+{% highlight c++ %}
 
 //sample code
 
