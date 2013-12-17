@@ -11,13 +11,13 @@ markdown: rdiscount
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : vontio
-tagline: my blog
+title : iOS Coder Talk
+tagline: mobile game programmer
 author :
   name : vontio
   email : vontio@gmail.com
   github : vontio
-  #twitter : xiaobofeng
+  twitter : xiaobofeng
   #feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
