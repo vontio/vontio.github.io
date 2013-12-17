@@ -8,7 +8,7 @@ tags : [cocos2d-x]
 
 **This is a tutorial of CCScrollVIew In cocos2dx.**
 
-To make CCScrollView work well,some modifications are required.(work with CCMenu you may read this [Helper Macros To Custom Manage Touch Priority](/cocos2d-x/2012/10/10/helper-macros-to-custom-manage-touch-priority/))
+To make CCScrollView work well,some modifications are required.(work with CCMenu you may read this [Helper Macros To Custom Manage Touch Priority]({{ post_url 2012-10-10-helper-macros-to-custom-manage-touch-priority }}))
 
 
 
