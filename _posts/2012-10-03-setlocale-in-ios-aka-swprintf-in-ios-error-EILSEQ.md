@@ -1,6 +1,6 @@
 ---
 layout: post
-category : iOS
+category : cocos2d-x
 tags : [cocos2d-x,iOS]
 ---
 {% include JB/setup %}
