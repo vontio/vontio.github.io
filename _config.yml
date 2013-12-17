@@ -15,7 +15,7 @@ markdown: rdiscount
 # so be sure to set them if your theme uses them.
 #
 title : iOS Coder Talk
-tagline: mobile game programmer
+tagline: game programming blog
 author :
   name : vontio
   email : vontio@gmail.com
