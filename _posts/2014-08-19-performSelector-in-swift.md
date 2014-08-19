@@ -6,7 +6,7 @@ tags : [swift]
 ---
 {% include JB/setup %}
 
-** I find a method to allow performSelector to work on swift,it's very easy to use
+#### I find a method to allow performSelector to work on swift,it's very easy to use
 
 [code on gitub](https://github.com/vontio/XPerformSelector)
 
