@@ -69,8 +69,9 @@ tags : [ios]
 #### install.html
 
 ```javascript
-<script>
+script>
 var url="https://url_to_install.xml";
 window.location="itms-services://?action=download-manifest&url=" + encodeURIComponent(url);
-</script>
+/script>
 ```
+
