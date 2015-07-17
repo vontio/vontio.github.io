@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://192.168.1.88/publish/ios/space.ipa</string>
+					<string>http://192.168.1.99/publish/ios/space.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http://192.168.1.88/publish/ios/large.png</string>
+					<string>http://192.168.1.99/publish/ios/large.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,7 +27,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http://192.168.1.88/publish/ios/small.png</string>
+					<string>http://192.168.1.99/publish/ios/small.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -39,7 +39,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>啪啦啦</string>
+				<string>全民星战</string>
 				<key>title</key>
 				<string>全民星战</string>
 			</dict>
