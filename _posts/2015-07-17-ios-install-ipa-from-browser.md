@@ -14,8 +14,7 @@ tags : [ios]
 
 #### install.xml
 
-
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -69,8 +68,7 @@ tags : [ios]
 
 #### install.html
 
-
-```
+```javascript
 <script>
 var url="https://url_to_install.xml";
 window.location="itms-services://?action=download-manifest&url=" + encodeURIComponent(url);
