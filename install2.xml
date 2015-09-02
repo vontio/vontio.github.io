@@ -11,7 +11,7 @@
                                         <key>kind</key>
                                         <string>software-package</string>
                                         <key>url</key>
-                                        <string>http://203.90.249.222:8085/static/install/space.ipa</string>
+                                        <string>http://203.90.249.222:8085/version/get_install_ipa</string>
                                 </dict>
                                 <dict>
                                         <key>kind</key>
